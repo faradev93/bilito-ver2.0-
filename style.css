@@ -1,0 +1,543 @@
+/* ///////////////////////       Source Code Cascading Style Sheet     //////////////////// */
+
+* {
+  font-family: "Vazirmatn", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  margin: 0;
+}
+
+/* Short Codes */
+.container {
+  max-width: 1226px;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+.text-align {
+  text-align: center;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+
+/* Short Codes */
+
+/* ///////////////////////       Header     //////////////////// */
+/* nav Bar */
+.user-mobile {
+  display: none;
+}
+.hamburger-menu {
+  display: none;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  gap: 32px;
+}
+
+nav li a {
+  color: rgba(96, 96, 96, 1);
+  text-decoration: none;
+}
+nav li a:hover {
+  color: rgba(29, 145, 204, 1);
+  border-bottom: 1px solid rgba(29, 145, 204, 1);
+  transition: 200ms;
+}
+
+/* nav Bar */
+
+.log-in-button {
+  background-color: rgba(29, 145, 204, 1);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-inline-start: 24px;
+  gap: 8px;
+}
+/* ///////////////////////       Header (End)    //////////////////// */
+
+/* ///////////////////////       Main     //////////////////// */
+.slider-bilito {
+  position: relative;
+}
+.slider-bilito > a {
+  cursor: auto;
+}
+
+.slider-bilito > a > img {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.search-box-desktop {
+  margin: 0 auto;
+  padding: 20px;
+  top: -95px;
+  position: relative;
+  max-width: 1226px;
+  height: 191px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #00000014;
+  border: 1px solid rgba(237, 237, 237, 1);
+  overflow: hidden;
+}
+/* Button & Input in search box*/
+.button-desktop {
+  width: 326px;
+  height: 40px;
+  gap: 16px;
+}
+
+.button-desktop button {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 8px 14px;
+  border: 1px solid rgba(23, 116, 163, 1);
+  border-radius: 8px;
+  width: 98px;
+  height: 40px;
+  font-size: 12px;
+}
+/* رفت و برگشت رنگی */
+#button-rafto-bargasht-desktop {
+  background-color: rgba(29, 145, 204, 1);
+  color: white;
+}
+
+#button-rafto-bargasht-desktop > a {
+  color: white;
+}
+/* رفت و برگشت رنگی */
+
+.button-desktop a {
+  text-decoration: none;
+}
+.mobile-box {
+  display: none;
+}
+/* نوار جستجو */
+.inputs-desktop {
+  width: 1176px;
+  height: 48px;
+  margin-top: 30px;
+  display: flex;
+  margin-inline-start: -12px;
+  overflow: hidden;
+}
+
+.inputs-desktop > input {
+  border: 1px solid rgba(223, 223, 223, 1);
+  border-radius: 8px;
+  width: 180px;
+  height: 48px;
+  text-align: justify;
+  margin-inline-start: 10px;
+}
+
+/* کلید جستجو رنگی */
+#search-button-desktop {
+  background-color: rgba(29, 145, 204, 1);
+  border: none;
+  border-radius: 8px;
+  width: 160px;
+  height: 48px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  cursor: pointer;
+}
+/* Card Picture's */
+
+/* large pics */
+.card-picture-large {
+  margin: 0 auto;
+  top: -56px;
+  position: relative;
+  max-width: 1224px;
+  height: 328px;
+  z-index: 2;
+  display: flex;
+  gap: 24px;
+  overflow: hidden;
+}
+.card-picture-small {
+  margin: 0 auto;
+  top: 12px;
+  flex-direction: column-reverse;
+  position: relative;
+  max-width: 392px;
+  height: 328px;
+  gap: 244px;
+}
+.card-picture-mobile {
+  display: none;
+}
+/* Toolbar */
+.toolbar {
+  max-width: 100%;
+  height: 219px;
+  top: 56px;
+  background: rgba(232, 244, 250, 1);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.toolbar-services {
+  margin: 0 auto;
+  margin-top: 31px;
+  max-width: 1224px;
+  height: 219px;
+  gap: 150px;
+  display: flex;
+}
+.toolbar-mobile {
+  display: none;
+}
+/* ///////////////////////       Footer     //////////////////// */
+
+.info {
+  max-width: 1226px;
+  height: 128px;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.info-text {
+  width: 600px;
+  height: 72px;
+}
+.info-picture {
+  margin-top: 18.72px;
+  width: 388px;
+  height: 66px;
+  display: flex;
+  gap: 24px;
+}
+.info-mobile {
+  display: none;
+}
+
+#hr-desktop {
+  border: 1px solid rgba(237, 237, 237, 1);
+}
+
+/* Below Info */
+.below-info {
+  display: flex;
+  width: 1224px;
+  height: 176px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.below-info-text {
+  width: 643px;
+  height: 176px;
+}
+
+.below-info-links {
+  width: 168px;
+  height: 264px;
+  color: rgba(96, 96, 96, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.below-info-links > ul > a {
+  text-decoration: none;
+}
+
+.below-info-links > ul > a:hover {
+  color: rgba(96, 96, 96, 1);
+}
+.below-info-links-mobile {
+  display: none;
+}
+.below-info-picture-mobile {
+  display: none;
+}
+/* footer end */
+.info-end {
+  width: 1224px;
+  height: 64px;
+  margin: 0 auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.info-end a img {
+  overflow: hidden;
+}
+.info-end-mobile {
+  display: none;
+}
+/* ///////////////////////       Responsive Codes Res:768px    //////////////////// */
+
+@media screen and (max-width: 768px) {
+  /* ••••••••••••••• body ••••••••••••••• */
+  body {
+    margin-top: 15px;
+  }
+  /* ••••••••••••••• Header ••••••••••••••• */
+  .hamburger-menu {
+    cursor: pointer;
+    display: block;
+    margin-inline-start: 20px;
+  }
+  nav {
+    display: none;
+  }
+  .user-desktop {
+    display: none;
+  }
+  .user-mobile {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    left: 20px;
+  }
+  .container > div > button > span {
+    display: none;
+  }
+
+  .container > div > button {
+    background-color: rgba(232, 244, 250, 1);
+    padding: 4px;
+    margin-inline-end: 20px;
+  }
+  .container > div > p {
+    display: none;
+  }
+  header .logo img {
+    width: 96px;
+    height: 32px;
+    transition-delay: 1000ms;
+    transition: 1000ms;
+  }
+
+  /* ••••••••••••••• Main ••••••••••••••• */
+  .fly-bilito a img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .fly-bilito {
+    overflow: hidden;
+  }
+
+  .fly-bilito {
+    margin-top: 14px;
+  }
+
+  .search-box-desktop {
+    display: none;
+  }
+  /* search-box */
+  .mobile-box {
+    transition: 500ms;
+    margin-top: 24px;
+    gap: 24px;
+    display: flex;
+    min-width: 320px;
+    height: 489px;
+    justify-content: space-evenly;
+  }
+  .button-mobile-box {
+    width: 320px;
+    height: 32px;
+  }
+  .button-mobile-box button {
+    width: 96px;
+    height: 32px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid rgba(23, 116, 163, 1);
+    padding: 8px 16px;
+    font-size: 10px;
+  }
+  #button-color-mobile {
+    background-color: rgba(29, 145, 204, 1);
+    color: white;
+  }
+  /* inputs */
+  .inputs-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 48px;
+    gap: 24px;
+  }
+
+  .inputs-mobile > input {
+    border-radius: 8px;
+    border: 1px solid rgba(223, 223, 223, 1);
+    width: 320px;
+    height: 40px;
+  }
+  #search-button-mobile {
+    background: rgba(29, 145, 204, 1);
+    padding: 8px 16px;
+    width: 320px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+  }
+  /* Card Picture Small & Large */
+  .card-picture-large {
+    display: none;
+  }
+
+  .card-picture-mobile {
+    display: flex;
+    width: 340px;
+    height: 189px;
+    margin: 0 auto;
+    gap: 16px;
+    overflow: scroll;
+  }
+  /* Toolbar */
+  .toolbar {
+    display: none;
+  }
+  .toolbar-mobile {
+    transition: 1000ms;
+    display: flex;
+    margin-top: 36px;
+    min-width: 100%;
+    height: 130px;
+    top: 36px;
+    background: rgba(232, 244, 250, 1);
+  }
+
+  .toolbar-mobile-services {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  /* ••••••••••••••• Footer ••••••••••••••• */
+  /* info */
+  .info {
+    display: none;
+  }
+  .info-mobile {
+    margin-top: 16px;
+    width: 320px;
+    height: 57px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
+  .info-text-mobile {
+    transition: 1000ms;
+    width: 200px;
+    height: 57px;
+    font-size: 11px;
+  }
+  .info-pic-mobile {
+    transition: 1000ms;
+  }
+
+  #hr-desktop {
+    display: none;
+  }
+  /* Below Info Links */
+
+  .below-info {
+    display: none;
+  }
+  .below-info-mobile {
+    display: flex;
+    width: 360px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 32px;
+    justify-content: space-evenly;
+    transition-duration: 2000ms;
+  }
+
+  .below-info-links-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+    height: 168px;
+  }
+  /* لینکهای مفید */
+  .below-info-links-mobile > h3 {
+    font-size: 15px;
+    display: block;
+    color: rgba(96, 96, 96, 1);
+    border-bottom: 1px solid rgba(237, 237, 237, 1);
+    margin-bottom: 0;
+  }
+  .below-info-links-mobile > ul > a {
+    text-decoration: none;
+  }
+  /* تگ لینک در لیست  */
+  .below-info-links-mobile > ul > a:hover {
+    color: rgba(96, 96, 96, 1);
+  }
+  .below-info-links-mobile > ul > a:visited {
+    color: rgba(96, 96, 96, 1);
+  }
+  .below-info-links-mobile > ul > a > li {
+    font-size: 11px;
+    display: flex;
+    padding-top: 12px;
+  }
+  /* تگ لینک در لیست  */
+  .below-info-picture-mobile {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    flex-direction: column;
+    margin-top: 34px;
+  }
+  /* footer End */
+  .info-end {
+    display: none;
+  }
+  .info-end-mobile{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 320px;
+    height: auto;
+  }
+}

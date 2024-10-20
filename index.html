@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilito Ver 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" a href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- mobile view html header -->
+
+      <!-- end -->
+      <div class="container flex items-center justify-evenly">
+        <div class="hamburger-menu flex">
+          <img
+            src="/images/hamburger.svg"
+            alt="Hamburger Menu"
+            width="24"
+            height="24"
+          />
+        </div>
+
+        <a href="/" class="logo flex"
+          ><img
+            src="/images/Bilito Logo Main.png"
+            alt="Bilito Logo"
+            width="148"
+            height="48"
+        /></a>
+        <nav>
+          <ul class="flex">
+            <li><a href="#">صفحه اصلی</a></li>
+            <li><a href="#">بیمه مسافرتی</a></li>
+            <li><a href="#">سفرهای من</a></li>
+            <li><a href="#">سایر موارد</a></li>
+          </ul>
+        </nav>
+        <div class="flex items-center">
+          <p class="items-center flex">
+            4045_021 پشتیبانی
+            <img
+              src="/images/call@2x.png"
+              alt="Cell Phone"
+              width="24"
+              height="24px"
+            />
+          </p>
+          <button class="log-in-button flex items-center">
+            <img
+              class="user-desktop"
+              src="/images/user.svg"
+              alt="login Image"
+              width="16"
+              height="16"
+            />
+            <img
+              class="user-mobile"
+              src="/images/user-mobile.svg"
+              alt="Sign In"
+              width="16"
+              height="16px"
+            />
+            <span>ورود /ثبت نام</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="slider-bilito">
+        <a href="#"
+          ><img src="./images/home page pic.png" alt="Fly with Bilito"
+        /></a>
+        <!-- mobile box & Input's behavior slider-->
+        <div class="mobile-box">
+          <div class="button-mobile-box flex justify-between">
+            <button id="button-color-mobile"><a href="#"></a>یک طرفه</button>
+            <button><a href="#"></a>رفت و برگشت</button>
+            <button><a href="#"></a>چند مسیره</button>
+          </div>
+
+          <div class="inputs-mobile">
+            <!-- <input type="text" placeholder="مبدا" /> -->
+            <select name="mabda" id="">
+              <option value="1">تهران</option>
+              <option value="1">ساوه</option>
+              <option value="1">تست </option>
+            </select>
+            <input type="text" placeholder="مقصد" />
+            <input type="text" placeholder="تاریخ رفت" />
+            <input type="text" placeholder="تعداد مسافر" />
+            <input type="text" placeholder="کلاس پرواز" />
+            <button id="search-button-mobile">
+              <img
+                src="/images/search-normal.svg"
+                alt="Search Logo"
+                width="16"
+                height="16"
+              />
+              جستجو
+            </button>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="search-box-desktop">
+          <div class="button-desktop flex items-center">
+            <button><a href="#">رفت</a></button>
+            <button id="button-rafto-bargasht-desktop">
+              <a href="#">رفت و برگشت</a>
+            </button>
+            <button><a href="#">چند مسیره</a></button>
+          </div>
+          <div class="inputs-desktop items-center justify-evenly">
+            <input type="text" placeholder="مبدا" />
+            <img
+              src="/images/arrow-2.svg"
+              alt="Arrow Icon"
+              width="16"
+              height="16"
+            />
+            <input type="text" placeholder="مقصد" />
+            <input type="text" placeholder="تاریخ رفت و برگشت" />
+            <input type="text" placeholder="تعداد مسافر" />
+            <input type="text" placeholder="کلاس پرواز" />
+            <button id="search-button-desktop">
+              <img
+                src="/images/search-normal.svg"
+                alt="search icon"
+                width="16"
+                height="16"
+              />جستجو
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card-picture-large flex">
+        <a href="#"
+          ><img
+            src="./images/Swim Season.png"
+            alt="Swim Season"
+            width="392"
+            height="328"
+        /></a>
+        <a href="#"
+          ><img
+            src="./images/Turkey Travel.png"
+            alt="Turkey Travles"
+            width="392"
+            height="328px"
+        /></a>
+        <div class="card-picture-small">
+          <a href="#"
+            ><img
+              src="./images/Since and art.png"
+              alt="Since & Art"
+              width="392"
+              height="152"
+          /></a>
+          <a href="#"
+            ><img src="./images/Sahra.png" alt="Sahra" width="392" height="152"
+          /></a>
+        </div>
+      </div>
+      <!-- mobile card picture -->
+      <div class="card-picture-mobile">
+        <a href="#"
+          ><img
+            src="./images/Swim Season.png"
+            alt="Kish Travel"
+            width="236px"
+            height="156px"
+        /></a>
+        <a href="#"
+          ><img
+            src="./images/Turkey Travel.png"
+            alt="Turkey"
+            width="236px"
+            height="156px"
+        /></a>
+      </div>
+      <div class="toolbar flex">
+        <div class="toolbar-services">
+          <a href="#"
+            ><img src="./images/Access.png" width="176" height="156" alt=""
+          /></a>
+
+          <a href="#"
+            ><img src="./images/getsupport.png" width="176" height="156" alt=""
+          /></a>
+
+          <a href="#"
+            ><img
+              src="./images/online services.png"
+              width="113"
+              height="156"
+              alt=""
+          /></a>
+
+          <a href="#"
+            ><img src="./images/low cost.png" width="176" height="156" alt=""
+          /></a>
+        </div>
+      </div>
+      <!-- Mobile Toolbar -->
+      <div class="toolbar-mobile">
+        <div class="toolbar-mobile-services items-center">
+          <a href="#"
+            ><img
+              src="./images/Access-mobile.svg"
+              alt="Access"
+              width="109"
+              height="81.5"
+            />
+          </a>
+
+          <a href="#"
+            ><img
+              src="./images/Support-Mobile.svg"
+              alt="24h/Support"
+              width="62"
+              height="81.5"
+            />
+          </a>
+
+          <a href="#"
+            ><img
+              src="./images/online-services-mobile.svg"
+              alt="online services"
+              width="109"
+              height="81.5"
+            />
+          </a>
+
+          <a href="#"
+            ><img
+              src="./images/low-cost-mobile.svg"
+              alt="Low Cost"
+              width="66"
+              height="81.5"
+            />
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="info flex">
+        <div class="info-text">
+          <h3>اپلیکیشن بیلیتو</h3>
+          <p>
+            با نصب اپلیکیشن بیلیتو راحتی و سرعت در رزرو بلیط هواپیما را داشته
+            باشید.
+          </p>
+        </div>
+        <div class="info-picture">
+          <a href="#"
+            ><img
+              src="./images/Google Play store.svg"
+              alt="GP Store"
+              width="182"
+              height="66"
+          /></a>
+
+          <a href="#"
+            ><img
+              src="./images/Apple Store.svg"
+              alt="Apple Store"
+              width="182"
+              height="66"
+          /></a>
+        </div>
+      </div>
+      <!-- info Mobile -->
+      <div class="info-mobile">
+        <div class="info-text-mobile">
+          <p>
+            آدرس دفتر مرکزی: تهران، میدان آزادی، خیابان آزادی، خیابان جیحون، طوس
+            غربی.
+            <br />
+            تلفن پشتیبانی: 98 76 54 32_021
+          </p>
+        </div>
+        <div class="info-pic-mobile">
+          <a href="#"
+            ><img
+              src="./images/Bilito Logo Main.png"
+              alt="Logo Bilito"
+              width="96"
+              height="32"
+          /></a>
+        </div>
+      </div>
+
+      <hr id="hr-desktop" width="1226" />
+      <div class="below-info">
+        <div class="below-info-text">
+          <a href="#"
+            ><img
+              src="./images/Bilito Logo Main.png"
+              alt="Bilito Logo"
+              width="148"
+              height="48"
+          /></a>
+          <p>تلفن پشتیبانی: 98 76 54 32_021</p>
+          <p>
+            آدرس دفتر مرکزی: تهران، میدان آزادی، خیابان آزادی، خیابان جیحون، طوس
+            غربی.
+          </p>
+        </div>
+        <div class="below-info-links">
+          <h3>لینک های مفید بیلیتو</h3>
+          <ul>
+            <a href="#"><li>درباره ما</li></a>
+            <a href="#"><li>تماس با ما</li></a>
+            <a href="#"><li>استرداد بلیط</li></a>
+            <a href="#"><li>راهنمای خرید بلیط</li></a>
+            <a href="#"><li>قوانین و مقررات</li></a>
+          </ul>
+        </div>
+      </div>
+      <!-- Below Info Mobile -->
+      <div class="below-info-mobile">
+        <div class="below-info-links-mobile">
+          <h3>لینک های مفید</h3>
+          <ul>
+            <a href="#"><li>درباره ما</li></a>
+            <a href="#"><li>تماس با ما</li></a>
+            <a href="#"><li>استرداد بلیط</li></a>
+            <a href="#"><li>راهنمای خرید بلیط</li></a>
+            <a href="#"><li>قوانین و مقررات</li></a>
+          </ul>
+        </div>
+        <div class="below-info-picture-mobile">
+          <a href="#"
+            ><img
+              src="./images/Google Play store.svg"
+              alt="GPL Store"
+              width="152"
+              height="45"
+          /></a>
+          <a href="#"
+            ><img
+              src="./images/Apple Store.svg"
+              alt="Apple Store"
+              width="152"
+              height="45"
+          /></a>
+        </div>
+      </div>
+      <div class="info-end">
+        <a href="#"><img src="./images/Frame 26087405.svg" alt="end" /></a>
+      </div>
+      <!-- info end mobile -->
+      <div class="info-end-mobile">
+        <div class="info-end-mobile1">
+          <a href="#"
+            ><img
+              src="./images/Footer mobile-1svg.svg"
+              alt="frame1"
+              width="320"
+              height="50"
+          /></a>
+        </div>
+        <div class="info-end-mobile2">
+          <a href="#">
+            <img
+              src="./images/Footer mobile-2.svg"
+              alt="frame2"
+              width="264"
+              height="56"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
